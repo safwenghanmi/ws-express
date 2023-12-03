@@ -1,0 +1,32 @@
+.log1{
+    width: 300px;
+    height: auto;
+
+}
+a{
+    text-decoration: none;
+    color: #ababab;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items:center ;
+    margin: 0 20px;
+    padding: 20px;
+    position:fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+header ul li{
+    margin-right: 30px;
+}
+header ul li a:hover,.active{
+    text-decoration: none;
+    color:#00b39b;}
